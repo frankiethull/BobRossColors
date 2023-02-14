@@ -1,0 +1,17 @@
+Package: BobRossColors
+Title: Bob Ross painting colors and scales for ggplot2
+Version: 0.0.0.9000
+Authors@R: 
+    person("Frank", "Hull", , "frankiethull@gmail.com", role = c("aut", "cre"))
+Description: This package has three data's and three functions. Giving access to Bob Ross' named colors (18 unique colors)
+              & the hex values for blended colors on each painting (403 paintings). 
+              Includes helper functions to visualize palettes for each painting and apply them to ggplot2 objects. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    ggplot2, dplyr, tidyr, magick, gridExtra
